@@ -1,0 +1,115 @@
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.about-grid {
+  max-width: 70rem;
+  display: grid;
+  grid-template-columns: repeat(15, minmax(0, 1fr));
+  grid-gap: 20px;
+  padding: 50px 20px;
+}
+
+.about-grid-left {
+  grid-area: 1 / 1 / span 3 / span 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+.about-grid-right {
+  grid-area: 1 / 8 / span 3 / span 8;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.about-grid-left p {
+  text-align: justify;
+}
+
+.about-grid-right1 {
+  grid-area: 2 / 1 / span 2 / span 2;
+  background: url("../../assets/images/about1.jpg");
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  top: -50px;
+}
+
+.about-grid-right2 {
+  grid-area: 1 / 3 / span 2 / span 2;
+  background: url("../../assets/images/about2.jpg");
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.about-grid-right3 {
+  grid-area: 4 / 1 / span 2 / span 2;
+  background: url("../../assets/images/about3.jpg");
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  top: -50px;
+}
+
+.about-grid-right4 {
+  grid-area: 3 / 3 / span 2 / span 2;
+  background: url("../../assets/images/about4.jpg");
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media (max-width: 58rem) {
+  .about-grid-left {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 40rem) {
+  .about-grid {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    grid-gap: 20px;
+    padding: 50px 20px;
+  }
+  .about-grid-left {
+    grid-area: 1 / 1 / span 3 / span 10;
+  }
+  .about-grid-right {
+    grid-area: 4 / 1 / span 3 / span 10;
+  }
+  .about-grid-right1 {
+    top: -70px;
+  }
+  .about-grid-right3 {
+    top: -70px;
+  }
+}
+
+@media (max-width: 25rem) {
+  .about-grid-left {
+    padding-right: 0;
+  }
+  .about-grid-left h2 {
+    font-size: 20px;
+  }
+  .about-grid-left p {
+    font-size: 14px;
+  }
+  .about-grid-right1,
+  .about-grid-right2,
+  .about-grid-right3,
+  .about-grid-right4 {
+    height: 170px;
+  }
+}
