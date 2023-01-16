@@ -11,7 +11,12 @@ function About() {
             providing professional property marketing, management, consultancy
             and development services for our diverse clients in the residential
             and commercial property markets. At Kelseygreene Properties Limited,
-            we are committed to high standards of excellence and integrity.{" "}
+            we are committed to high standards of excellence and integrity.
+            <br />
+            <br />
+            We bring our expertise to every project handled by our experienced
+            team, providing a thorough and qualitative service in alignment with
+            our clients real estate needs.
           </p>
         </div>
         <div className="about-grid-right">

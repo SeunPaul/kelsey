@@ -1,9 +1,13 @@
 import "./Brochure.css";
 import bradford1 from "../../assets/images/bradford1.jpg";
 import bradford2 from "../../assets/images/bradford2.jpg";
+import bradford3 from "../../assets/images/bradford3.jpg";
 import cedarview1 from "../../assets/images/cedarview1.jpg";
 import cedarview2 from "../../assets/images/cedarview2.jpg";
+import arepo1 from "../../assets/images/arepo1.jpg";
 import arepo2 from "../../assets/images/arepo2.jpg";
+import lakowe1 from "../../assets/images/lakowe1.jpg";
+import lakowe2 from "../../assets/images/lakowe2.jpg";
 import bulk1 from "../../assets/images/bulk1.jpg";
 import abuja1 from "../../assets/images/abuja1.jpg";
 import abuja2 from "../../assets/images/abuja2.jpg";
@@ -17,6 +21,12 @@ function Brochure() {
         <div className="brochure-grid brochure1">
           <div className="brochure-grid-left">
             <h3>BRADFORD COURT BY RCCG NEW AUDITORIUM</h3>
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/kgpl-461fa.appspot.com/o/Bradford%20Court%20flyer.pdf?alt=media&token=eb4cebfd-a0ed-4fa1-8ea6-e035d9fd4eff"
+              download
+            >
+              <button className="flyer-btn">Download Flyer</button>
+            </a>
             <p>
               Bradford Court is a residential estate development in a serene
               environment by RCCG New Auditorium. The property is suitable
@@ -42,17 +52,24 @@ function Brochure() {
               href="https://firebasestorage.googleapis.com/v0/b/kgpl-461fa.appspot.com/o/BRADFORD%20COURT%20BROCHURE.pdf?alt=media&token=9515c0a7-80c9-4074-9a12-495fcedb88dd"
               download
             >
-              <button>Download Brochure</button>
+              <button className="brochure-btn">Download Brochure</button>
             </a>
           </div>
           <div className="brochure-grid-right">
             <img src={bradford1} alt="" />
+            <img src={bradford3} alt="" />
             <img src={bradford2} alt="" />
           </div>
         </div>
         <div className="brochure-grid brochure2">
           <div className="brochure-grid-left">
             <h3>CEDARVIEW ESTATE BY RCCG NEW AUDITORIUM, BOUN</h3>
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/kgpl-461fa.appspot.com/o/Cedar%20View%20flyer.pdf?alt=media&token=f0610be8-4529-4972-8339-6a3def28ed15"
+              download
+            >
+              <button className="flyer-btn">Download Flyer</button>
+            </a>
             <p>
               Cedar View Estate is a fast-selling residential site and service
               estate sharing fence with RCCG New Auditorium
@@ -72,7 +89,7 @@ function Brochure() {
               href="https://firebasestorage.googleapis.com/v0/b/kgpl-461fa.appspot.com/o/CEDARVIEW%20BROCHURE.pdf?alt=media&token=2ba8a4bf-ff7f-4d7a-8480-ba2a67c48cb9"
               download
             >
-              <button>Download Brochure</button>
+              <button className="brochure-btn">Download Brochure</button>
             </a>
           </div>
           <div className="brochure-grid-right">
@@ -83,6 +100,12 @@ function Brochure() {
         <div className="brochure-grid brochure3">
           <div className="brochure-grid-left">
             <h3>BRADFORD ESTATE, AREPO</h3>
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/kgpl-461fa.appspot.com/o/Arepo%20Flyer.pdf?alt=media&token=77c4229d-3783-4ca9-9c59-dbe3cc6d3d04"
+              download
+            >
+              <button className="flyer-btn">Download Flyer</button>
+            </a>
             <p>
               Bradford Estate, Arepo is an elite residential site and service
               estate located in the heart of Arepo Town, a well-developed area,
@@ -97,12 +120,50 @@ function Brochure() {
               <li>Steady power supply,</li>
               <li>Green areas and playgrounds</li>
             </ul>
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/kgpl-461fa.appspot.com/o/AREPO%20BROCHURE.pdf?alt=media&token=b7ecf47e-50c5-40d4-a4d4-7af4c6abee83"
+              download
+            >
+              <button className="brochure-btn">Download Brochure</button>
+            </a>
           </div>
           <div className="brochure-grid-right">
+            <img src={arepo1} alt="" />
             <img src={arepo2} alt="" />
           </div>
         </div>
         <div className="brochure-grid brochure4">
+          <div className="brochure-grid-left">
+            <h3>BRADFORD ESTATE, LAKOWE</h3>
+            <p>
+              Bradford Estate, Lakowe is an elite estate located in Adiva
+              plainfields, Beechwood estate, Lakowe. The estate offers high
+              quality fully serviced plots of land (450 Sqm to 782 Sqm).
+            </p>
+            <p>
+              The location is prime and is in an already developed community in
+              a serene environment with 24 hours security. Bradford estate is
+              the new destination for would-be homeowners and investors from
+              local and diaspora. You only need to visit Bradford estate once to
+              become part of the rush.
+            </p>
+            <h4>Location:</h4>
+            <p>Inside Adiva Plainfields, Beechwood estate, Lakowe</p>
+            <h4>Title:</h4>
+            <p>Global C of O</p>
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/kgpl-461fa.appspot.com/o/LAKOWE%20BROCHURE.pdf?alt=media&token=0b04bcbe-f081-4e74-ba73-befb70952d98"
+              download
+            >
+              <button className="brochure-btn">Download Brochure</button>
+            </a>
+          </div>
+          <div className="brochure-grid-right">
+            <img src={lakowe1} alt="" />
+            <img src={lakowe2} alt="" />
+          </div>
+        </div>
+        <div className="brochure-grid brochure5">
           <div className="brochure-grid-left">
             <h3>BULK LAND FOR SALE IN ASEESE</h3>
             <p>
@@ -171,7 +232,7 @@ function Brochure() {
               href="https://firebasestorage.googleapis.com/v0/b/kgpl-461fa.appspot.com/o/BRADFORD%20ESTATE%20ABUJA%20BROCHURE.pdf?alt=media&token=658f2042-3e20-42fd-b756-1a2bc364bceb"
               download
             >
-              <button>Download Brochure</button>
+              <button className="brochure-btn">Download Brochure</button>
             </a>
           </div>
           <div className="brochure-grid-right">

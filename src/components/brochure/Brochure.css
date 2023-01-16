@@ -33,7 +33,25 @@
   color: #1f1f1f;
 }
 
-.brochure-grid-left button {
+.brochure-grid-left .flyer-btn {
+  height: 40px;
+  width: 230px;
+  border: none;
+  outline: none;
+  color: #1f1f1f;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+.brochure-grid-left .flyer-btn:hover {
+  color: #fff;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.brochure-grid-left .brochure-btn {
   height: 50px;
   border: none;
   outline: none;
@@ -48,7 +66,7 @@
   transition: all ease 0.2s;
 }
 
-.brochure-grid-left button:hover {
+.brochure-grid-left .brochure-btn:hover {
   background-color: #fff;
   border: 2px solid rgba(0, 0, 0, 0.5);
   color: #1f1f1f;
